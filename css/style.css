@@ -1,0 +1,131 @@
+/*-- variables colores --*/
+:root {
+    --primary: #111b54;
+    --light: #ffffff;
+    --grey: #efefef;
+    --dark: #000000;
+    --navyblue: #0C4C8A;
+    --greenper: #00BAA1;
+    --brown: #CB3F1B;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;     /*-- Fuente --*/
+    font-weight: 300px;
+    color: var(--primary);
+}
+
+.bg-dark { background-color: var(--dark) !important; }
+.txt-green { color: var(--greenper) !important; }
+.txt-light{ color: var(--light) !important; }
+.txt-navyblue{ color: var(--navyblue) !important;}
+.txt-brown{ color: var(--brown) !important; }
+.txt-dark{ color: var(--dark) !important;}
+
+/*--------------------- Navbar ---------------------*/
+.btn-search {
+  right: 20px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.icono {
+  font-size: 20px;
+}
+
+/*--------------------- Contenido ---------------------*/
+
+header {
+  padding: 255px 0 250px;
+  background: url(../img/banner-inicio.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+.btn-explora-tienda {
+  color: #ffffff;
+  font-size: 20px;
+  top: 158px;
+  left: 55px;
+}
+
+.btn_tienda {
+  width: 220px;
+}
+
+.btn-explora-mascota {
+  color: #ffffff;
+  font-size: 20px;
+  top: 182px;
+  left: 30px;
+}
+
+.btn_mascota {
+  width: 200px;
+}
+
+.col-lg-6 img {
+  transition: 0.5s linear;
+}
+
+.col-lg-6 img:hover {
+  transform: rotate(5deg);
+}
+
+/*--------------------- Galeria ---------------------*/
+.container-titulo {
+  background: url(../img/layout_galeria.jpg) no-repeat fixed;
+  background-size: cover;
+  color: var(--light);
+  height: 40vh;
+  width: 194vh;
+}
+
+.texto {
+  margin: 165px auto;
+  font-size: 50px;
+}
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+
+#galeria img {
+  width: 100%;
+  transition: 0.3s linear;
+}
+
+#galeria img:hover {
+  transform: scale(1.1);
+}
+/*--------------------- Footer ---------------------*/
+.icono-footer {
+  font-size: 30px;
+  color:#00BAA1 !important;
+  padding: 5px;
+  transition: 0.3s ease-in;
+}
+
+.icono-footer:hover {
+  transform: scale(1.3);
+}
+
+.img-footer {
+  width: 150px;
+}
+
+.Copyright {
+  font-size: 12px;
+}
+
+.Copyright a{
+  color: #CE3E1E;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.Copyright a:hover {
+  color:#00BAA1 !important; 
+}

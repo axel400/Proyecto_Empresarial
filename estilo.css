@@ -1,0 +1,278 @@
+body
+{
+ text-align:center;
+ width:100%;
+ margin:0 auto;
+ padding:0px;
+ font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+ background:url("imagenes/fondo.jpg") center center no-repeat;
+ background-size:1400px 650px;
+ background-repeat: no-repeat;
+ background-attachment: fixed; 
+}
+#titulo 
+{
+color: #fff;
+position: relative;
+top: -1px;
+width: 400px;
+left: 90;
+}
+#header_wrapper
+{
+ width:100%;
+ min-width:980px;
+ background-color: black
+}
+#header
+{
+ width:980px;
+ margin:0px auto;
+ padding:0px;
+ height:85px;
+}
+#header li
+{
+ list-style-type:none;
+ float:left;
+ text-align:left;
+ color:white;
+}
+#header #sitename
+{
+ margin-top:25px;
+}
+#header #sitename a
+{
+ color:white;
+ text-decoration:none;
+ font-size:30px;
+ font-weight:900;
+}
+#header form
+{
+ margin-top:15px;
+ float:right;
+}
+#header form li
+{
+ font-size:13px;
+ margin-left:15px;
+}
+#header form input[type="text"]
+{
+ margin-top:3px;
+ margin-bottom:3px;
+ width:150px;
+ border:1px solid;
+ height:25px;
+ padding-left:3px;
+}
+#header form input[type="password"]
+{
+ margin-top:3px;
+ margin-bottom:3px;
+ width:150px;
+ border:1px solid;
+ height:25px;
+ padding-left:3px;
+}
+#fechaNacimiento
+{
+    font-size: 15px;
+    border:1px solid;
+    height:25px; 
+    width: 150px;
+    margin-left: 190px;
+    border-radius: 5px;
+}
+#sexo
+{
+    font-size: 15px;
+    margin-top:8px;
+    border:1px solid;
+    height:25px; 
+    width: 150px;
+    margin-left: 190px;
+    border-radius: 5px;
+}
+#paisResidencia
+{
+    font-size: 15px;
+    margin-top:8px;
+    border:1px solid;
+    height:25px; 
+    width: 150px;
+    margin-left: 190px;
+    border-radius: 5px;
+}
+#header form input[type="submit"]
+{
+ height:25px;
+ margin-top:20px;
+ background-color:#67ae55;
+ color:white;
+ border:1px solid #578843;
+}
+#wrapper
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+ width:980px;
+}
+#wrapper div
+{
+ float:left;
+ font-family: helvetica, arial, sans-serif;
+}
+#wrapper #div1
+{
+ margin-top:80px;
+ width:590px;
+ text-align:left;
+}
+#wrapper #div1 p
+{
+ font-size:20px;
+ font-family:arial;
+ font-weight:bold;
+ margin:0px;
+ color:#ffffff;
+ position: relative;
+ top: -1px;
+ width: 400px;
+}
+#wrapper #div2
+{
+ margin-top: -50px;
+ width:390px;
+ text-align:left;
+}
+#wrapper #div2 h1
+{
+ margin:0px;
+ font-size:37px;
+ color:#ffffff;
+}
+#wrapper #div2 p
+{
+ font-size:18px;
+ color:#ffffff;
+
+}
+#wrapper #div2 li
+{
+ list-style-type:none;
+ margin-top:10px;
+}
+#wrapper #div2 li #nombre
+{
+ width:49%;
+}
+#wrapper #div2 li #apellido
+{
+ margin-left:2%;
+ width:49%;
+}
+#wrapper #div2 li input[type="text"]
+{
+ width:100%;
+ height:40px;
+ border-radius:5px;
+ padding-left:10px;
+ font-size:18px;
+ border:1px solid #BDBDBD;
+}
+#wrapper #div2 li input[type="password"]
+{
+ width:100%;
+ height:40px;
+ border-radius:5px;
+ padding-left:10px;
+ font-size:18px;
+ border:1px solid #BDBDBD;
+}
+#wrapper #div2 li input[type="submit"]
+{
+ width:205px;
+ height:45px;
+ text-align:center;
+ font-size:19px;
+ margin-top: 25px;
+ margin-bottom: 10px;
+ font-family: 'Freight Sans Bold', helvetica, arial, sans-serif !important;
+ font-weight: bold !important;
+ background: linear-gradient(#67ae55, #578843);
+ background-color: #69a74e;
+ box-shadow: inset 0 1px 1px #a4e388;
+ border-color: #3b6e22 #3b6e22 #2c5115;
+ border: 1px solid;
+ border-radius: 5px;
+ color: #fff;
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+#colorB
+{
+    color: #fff;
+}
+#enlaceinicio
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    position: absolute;
+    top: 115px;
+}
+#enlaceinformacion
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    top: 50px;
+    width: 530px;
+}
+#lista
+{
+    list-style:none
+}
+#ubicacion
+{
+    position: fixed;
+    margin-top:16px;
+}
+#margen
+{
+    margin-left: 5%;
+    margin-right: 20%;
+}
+#mensajeFlotante
+{
+    background-color: yellowgreen;
+    position: fixed;
+    right: 3%; 
+    border-radius: 15px;
+    width: 200px;
+    margin-top: 20%;
+}
+#comentarios{
+    padding: 2%;
+    float: left;
+    border: 2px solid white;
+    color: white;
+    width: 500px;
+    margin-bottom: 2%;
+    font-size: 15px;
+    border-radius: 15px;
+}
+#contenedor{
+    padding: 2%;
+    float: right;
+    width: 400px;
+    height: 309px;
+    border: 2px solid white;
+    margin-bottom: 2%;
+    color: white;
+    border-radius: 15px;
+}
