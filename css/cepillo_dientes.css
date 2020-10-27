@@ -1,0 +1,143 @@
+/*-- variables colores --*/
+:root {
+    --primary: #111b54;
+    --light: #ffffff;
+    --grey: #efefef;
+    --dark: #000000;
+    --navyblue: #0C4C8A;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;     /*-- Fuente --*/
+    font-weight: 300px;
+    color: var(--primary);
+}
+
+.bg-dark { background-color: var(--dark) !important; }
+.bg-grey { background-color: var(--grey) !important;}
+.bg-light { background-color: var(--light) !important; }
+.txt-light{ color: var(--light) !important; }
+.txt-navyblue{ color: var(--navyblue) !important;}
+.txt-dark{ color: var(--dark) !important;}
+
+/*--------------------- Navbar ---------------------*/
+.btn-search {
+  right: 20px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.icono {
+  font-size: 20px;
+}
+
+/*--------------------- Productos Imagenes ---------------------*/
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.product-image-thumbs {
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.product-image-thumb {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1rem;
+  max-width: 7rem;
+  padding: 0.5rem;
+}
+
+.product-image-thumb img {
+  max-width: 100%;
+  height: auto;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+.product-image-thumb:hover {
+  opacity: 0.5;
+}
+
+.product-share a {
+  margin-right: .5rem;
+}
+
+.btnCarrito:hover {
+  color: #fff !important;
+}
+
+.icono-producto {
+  font-size: 30px;
+  color:var(--dark) !important;
+  padding: 5px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 120px;
+  max-height: 150px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.prd_relacionados {
+  margin: 10px auto;
+  font-size: 35px;
+}
+
+.product-share a{
+  text-decoration: none;
+  color: var(--navyblue);
+}
+
+.product-share a:hover{
+  color: #00BAA1 !important;
+}
+
+.btnCarrito:hover {
+  color: var(--light)!important;
+}
+
+/*--------------------- Footer ---------------------*/
+.icono-footer {
+  font-size: 30px;
+  color:#00BAA1 !important;
+  padding: 5px;
+  transition: 0.3s ease-in;
+}
+
+.icono-footer:hover {
+  transform: scale(1.3);
+}
+
+.img-footer {
+  width: 150px;
+}
+
+.Copyright {
+  font-size: 12px;
+}
+
+.Copyright a{
+  color: #CE3E1E;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.Copyright a:hover {
+  color:#00BAA1 !important; 
+}
